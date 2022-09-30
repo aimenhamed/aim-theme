@@ -415,6 +415,15 @@
 			}
 		},
 		{
+			"name": "Object",
+			"scope": [
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#93ffd6",
+			}
+		},
+		{
 			"name": "Invalid",
 			"scope": [
 				"invalid",
@@ -475,7 +484,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#a071f0"
+				"foreground": "#bfa5ec"
 			}
 		},
 		{
@@ -504,6 +513,7 @@
 		{
 			"name": "Block Level Variables",
 			"scope": [
+				"variable.other.constant",
 				"meta.block variable.other"
 			],
 			"settings": {
@@ -561,10 +571,14 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"meta.object.member",
+				"variable.other.constant.property",
+				"meta.objectliteral.value",
+				"constant.language.boolean",
 			],
 			"settings": {
-				"foreground": "#fdbf4a"
+				"foreground": "#f9ca74"
 			}
 		},
 		{
@@ -634,17 +648,9 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "HTML Attributes",
-			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic entity.other.attribute-name",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"fontStyle": "italic",

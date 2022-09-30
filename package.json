@@ -1,8 +1,8 @@
 {
   "name": "aim-theme",
-  "displayName": "Aim",
-  "description": "",
-  "version": "0.0.1",
+  "displayName": "aim-theme",
+  "description": "Fork off tokyonight, with personal tweaks",
+  "version": "0.0.2",
   "publisher": "aimen",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Aim",
+        "label": "aim-theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Aim-color-theme.json"
       }
